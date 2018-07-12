@@ -11,7 +11,7 @@ int main()
     myset *p;
     p=(myset*)Myalloc(5*sizeof(myset));
 //    p=(myset*)malloc(5*sizeof(myset));
-    printf("%d",sizeof(p));
+
     for(int i=0;i<5;i++){
         scanf("%s",(p+i)->str);
         (p+i)->a=i;
