@@ -25,8 +25,8 @@ void arradd(myarray *array,void *obj){
         
         
     }
-    *((array->arr)+array->cnt) = obj;
-    array->cnt++;
+    *((array->arr)+array->cnt++) = obj;
+//     array->cnt++;
     
 }
 
